@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img"
      aria-labelledby="title desc" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif">
-  <title id="title">ActWise — build once, surface everywhere</title>
-  <desc id="desc">Three surfaces (terminal, Copilot Studio, Claude Code / GitHub Copilot) share one
-    fabric of MCP servers, CLIs and a shared Python package, which reaches the NICE Actimize docs
-    portal, a live ActOne REST instance, and the ActOne database.</desc>
+  <title id="title">ActWise &#8212; the agentic operations platform for Actimize</title>
+  <desc id="desc">Any AI front end &#8212; the customer's own AI (Claude, Copilot, Cursor) or a NiCE-branded app
+    (Copilot Studio, Teams, web) &#8212; drives one guarded ActWise backend that operates the connected
+    Actimize estate: alerts and cases, configuration and diagnostics, and docs, data and policy.
+    Read-only by default; every write is gated and audited. 10x more operators, 10x faster, 10x safer.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -25,57 +26,58 @@
 
   <!-- Left: identity -->
   <text x="60" y="92" fill="#8792a6" font-size="15" letter-spacing="3" font-weight="600">
-    UNOFFICIAL · NICE ACTIMIZE ACTONE TOOLKIT</text>
+    NICE ACTIMIZE &#183; 10X PRODUCT VISION</text>
   <g transform="translate(60,120)">
     <path d="M0 22 L14 34 L0 46 Z" fill="#7c8cff"/>
     <text x="24" y="52" fill="#f2f4fb" font-size="66" font-weight="800"
           letter-spacing="-1">ActWise</text>
   </g>
-  <text x="60" y="230" fill="#c7cede" font-size="26" font-weight="600">Build once.
-    <tspan fill="#7c8cff">Surface everywhere.</tspan></text>
-  <text x="60" y="272" fill="#8792a6" font-size="17">7 CLIs · 5 MCP servers · 9 skills · Copilot Studio agents</text>
-  <g font-size="14" fill="#7f8aa0" font-family="'Cascadia Code','SFMono-Regular',Consolas,monospace">
-    <rect x="60" y="312" width="360" height="34" rx="8" fill="#0e1117" stroke="#232a39"/>
-    <text x="76" y="334"><tspan fill="#3fb950">$</tspan> uv tool install actwise</text>
+  <text x="60" y="228" fill="#c7cede" font-size="26" font-weight="600">One backend. Any AI.
+    <tspan fill="#7c8cff">Fully governed.</tspan></text>
+  <text x="60" y="268" fill="#8792a6" font-size="17">10&#215; more operators &#183; 10&#215; faster &#183; 10&#215; safer</text>
+  <g>
+    <rect x="60" y="300" width="452" height="34" rx="17" fill="#0e1117" stroke="#232a39"/>
+    <text x="80" y="322" font-size="13.5" fill="#9aa4b8"><tspan fill="#3fb950" font-weight="700">&#10003;</tspan> read-only by default &#183; every write gated &#183; fully audited</text>
   </g>
 
-  <!-- Right: fabric diagram -->
-  <g font-size="15" fill="#c7cede" text-anchor="middle">
+  <!-- Right: product diagram -->
+  <g text-anchor="middle">
 
-    <!-- surfaces row -->
+    <!-- front ends row -->
     <g>
-      <rect x="620" y="60" width="160" height="46" rx="10" fill="#161b26" stroke="#2b3345"/>
-      <text x="700" y="88">Terminal</text>
-      <rect x="800" y="60" width="160" height="46" rx="10" fill="#161b26" stroke="#2b3345"/>
-      <text x="880" y="88">Copilot Studio</text>
-      <rect x="980" y="60" width="160" height="46" rx="10" fill="#161b26" stroke="#2b3345"/>
-      <text x="1060" y="82" font-size="14">Claude Code /</text>
-      <text x="1060" y="98" font-size="14">GitHub Copilot</text>
+      <rect x="620" y="58" width="250" height="56" rx="10" fill="#161b26" stroke="#2b3345"/>
+      <text x="745" y="84" fill="#c7cede" font-size="15" font-weight="600">Your own AI</text>
+      <text x="745" y="103" fill="#8792a6" font-size="12">Claude &#183; Copilot &#183; Cursor</text>
+      <rect x="890" y="58" width="250" height="56" rx="10" fill="#161b26" stroke="#2b3345"/>
+      <text x="1015" y="84" fill="#c7cede" font-size="15" font-weight="600">NiCE-branded app</text>
+      <text x="1015" y="103" fill="#8792a6" font-size="12">Copilot Studio &#183; Teams &#183; Web</text>
     </g>
 
-    <!-- core fabric -->
-    <rect x="620" y="177" width="520" height="46" rx="12" fill="url(#core)"/>
-    <text x="880" y="205" fill="#0b0d12" font-weight="700" font-size="16">MCP servers · CLIs · shared Python package</text>
+    <!-- guarded backend core -->
+    <rect x="620" y="170" width="520" height="48" rx="12" fill="url(#core)"/>
+    <text x="880" y="199" fill="#0b0d12" font-weight="700" font-size="16">ActWise &#8212; one guarded backend</text>
 
-    <!-- targets row -->
-    <g>
+    <!-- connected Actimize estate row -->
+    <g font-size="14" fill="#9fd88a">
       <rect x="620" y="300" width="160" height="46" rx="10" fill="#101722" stroke="#274012"/>
-      <text x="700" y="328" fill="#9fd88a">Docs portal</text>
+      <text x="700" y="328">Alerts &amp; Cases</text>
       <rect x="800" y="300" width="160" height="46" rx="10" fill="#101722" stroke="#274012"/>
-      <text x="880" y="328" fill="#9fd88a">ActOne REST</text>
+      <text x="880" y="328">Config &amp; Diagnostics</text>
       <rect x="980" y="300" width="160" height="46" rx="10" fill="#101722" stroke="#274012"/>
-      <text x="1060" y="328" fill="#9fd88a">ActOne DB</text>
+      <text x="1060" y="328">Docs &#183; Data &#183; Policy</text>
     </g>
   </g>
 
-  <!-- connectors: surfaces -> core -->
+  <!-- estate caption -->
+  <text x="880" y="368" text-anchor="middle" fill="#6f7a8f" font-size="12.5">the connected Actimize estate &#8212; grounded, cited, gated</text>
+
+  <!-- connectors: front ends -> core -->
   <g stroke="#3a4358" stroke-width="1.6" fill="none" marker-end="url(#arrow)">
-    <path d="M700 106 L700 175"/>
-    <path d="M880 106 L880 175"/>
-    <path d="M1060 106 L1060 175"/>
-    <!-- core -> targets -->
-    <path d="M700 223 L700 298"/>
-    <path d="M880 223 L880 298"/>
-    <path d="M1060 223 L1060 298"/>
+    <path d="M745 114 L745 168"/>
+    <path d="M1015 114 L1015 168"/>
+    <!-- core -> estate -->
+    <path d="M700 218 L700 298"/>
+    <path d="M880 218 L880 298"/>
+    <path d="M1060 218 L1060 298"/>
   </g>
 </svg>
